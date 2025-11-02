@@ -1,0 +1,11 @@
+# Predicting NCAA Tournament Success from Team Efficiency Metrics
+
+## Description
+College basketball statistics have become increasingly advanced, with metrics like adjusted offensive and defensive efficiency (**ADJOE**, **ADJDE**), effective field goal percentage (**EFG**), turnover rate (**TOR**), and tempo (**ADJ_T**) offering a deeper look into how well a team performs. While these numbers help describe team strength, it is still difficult to accurately predict how a team will perform in the NCAA Tournament.  
+This project uses machine learning to predict **NCAA Tournament outcomes** — such as whether a team makes the tournament, what seed it receives, or how far it advances — based on regular-season efficiency data. It includes data exploration, feature engineering (like calculating efficiency margins or tempo-adjusted stats), and model development using methods such as **logistic regression**, **random forests**, and **XGBoost**. These models will be compared to see which performs best and which features are the most important for predicting tournament success.
+
+## Directory Structure
+The project directory structure begins with a `README.md` file and `.gitignore`. This is followed by a `data` folder containing both the raw and processed datasets used for analysis. A `notebooks` folder includes Jupyter notebooks for exploratory data analysis and visualization, while an `src` folder contains Python scripts for preprocessing pipelines, model training (with at least three machine learning models), and performance evaluation. Also included in the project directory are folders for `figures` (used to store generated plots and charts), `docs` (for project documentation), and a `requirements.txt` file listing all Python dependencies required to run the project.
+
+## Setup Instructions
+To set up the environment, use **Python** and **Jupyter Notebook**. The recommended workflow begins by cloning the repository and installing all dependencies listed in `requirements.txt`. Required packages include **pandas**, **NumPy**, **scikit-learn**, **XGBoost**, and **Matplotlib** for data processing, modeling, and visualization. Users can then open the notebooks in Jupyter to explore the data, train models, and view evaluation results.  
